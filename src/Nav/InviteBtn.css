@@ -1,0 +1,13 @@
+.InviteBtn {
+  background: linear-gradient(135deg, #33d35e, #2ab6d9);
+  color: white;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  letter-spacing: -0.5px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.InviteBtn:hover {
+  opacity: 0.7;
+}
