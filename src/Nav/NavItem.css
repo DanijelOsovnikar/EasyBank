@@ -11,6 +11,7 @@
 
 .NavItem:hover::after {
   opacity: 1;
+  transform: translateX(0);
 }
 
 .NavItem::after {
@@ -22,5 +23,6 @@
   position: absolute;
   top: 2.95rem;
   opacity: 0;
+  transform: translateX(-2500%);
   transition: opacity 0.5s ease;
 }
